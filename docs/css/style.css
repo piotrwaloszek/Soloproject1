@@ -1234,6 +1234,12 @@ thead {
       justify-content: flex-end;
   background-color: #fffffe;
   margin: 0;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.top-bar .top-bar-amount {
+  text-align: center;
 }
 
 .top-bar p {

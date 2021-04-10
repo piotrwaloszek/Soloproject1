@@ -5,6 +5,11 @@
   justify-content: flex-end;
   background-color: $logo-color;
   margin: 0;
+  align-items: center;
+
+  .top-bar-amount{
+    text-align: center;
+  }
 
   p{
     margin-left: 5px;
