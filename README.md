@@ -1,1 +1,1 @@
-https://piotrwaloszek.github.io/Solo-project1/
+https://piotrwaloszek.github.io/Soloproject1/
