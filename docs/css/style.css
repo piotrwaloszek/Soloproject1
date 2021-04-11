@@ -1230,14 +1230,26 @@ thead {
       justify-content: flex-end;
   background-color: #fffffe;
   margin: 0;
-  -ms-flex-align: end;
-      align-items: end;
-  max-height: 55px;
-  border-bottom: 1px solid #e3e3e3;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .top-bar .top-bar-amount {
   text-align: center;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.top-bar .top-bar-alerts {
+  margin-bottom: 0px;
+}
+
+.top-bar .top-bar-login {
+  margin-bottom: 0px;
+}
+
+.top-bar .top-bar-logout {
+  margin-bottom: 0px;
 }
 
 .top-bar p {
@@ -1275,9 +1287,5 @@ thead {
 
 .top-bar .top-bar-login:hover {
   cursor: pointer;
-}
-
-.top-bar .top-bar-amount {
-  font-weight: bolder;
 }
 /*# sourceMappingURL=style.css.map */

@@ -5,14 +5,25 @@
   justify-content: flex-end;
   background-color: $logo-color;
   margin: 0;
-  align-items: end;
-  max-height: 55px;
-  border-bottom: 1px solid #e3e3e3;;
+  align-items: center;
 
   .top-bar-amount{
     text-align: center;
+    font-weight: bolder;
+    margin-bottom: 0px;
   }
 
+  .top-bar-alerts{
+    margin-bottom: 0px;
+  }
+
+  .top-bar-login{
+    margin-bottom: 0px;
+  }
+
+  .top-bar-logout{
+    margin-bottom: 0px;
+  }
   p{
     margin-left: 5px;
     padding: 15px 15px;
@@ -45,9 +56,5 @@
 
   .top-bar-login:hover{
     cursor: pointer;
-  }
-
-  .top-bar-amount{
-    font-weight: bolder;
   }
 }
