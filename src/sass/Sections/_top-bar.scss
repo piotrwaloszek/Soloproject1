@@ -5,7 +5,9 @@
   justify-content: flex-end;
   background-color: $logo-color;
   margin: 0;
-  align-items: center;
+  align-items: end;
+  max-height: 55px;
+  border-bottom: 1px solid #e3e3e3;;
 
   .top-bar-amount{
     text-align: center;
