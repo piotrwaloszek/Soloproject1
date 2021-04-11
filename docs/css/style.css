@@ -576,10 +576,6 @@ body {
   cursor: pointer;
 }
 
-.messenger .contact:hover {
-  background-color: #4b4b4b;
-}
-
 .link {
   display: -ms-flexbox;
   display: flex;
@@ -1234,8 +1230,10 @@ thead {
       justify-content: flex-end;
   background-color: #fffffe;
   margin: 0;
-  -ms-flex-align: center;
-      align-items: center;
+  -ms-flex-align: end;
+      align-items: end;
+  max-height: 55px;
+  border-bottom: 1px solid #e3e3e3;
 }
 
 .top-bar .top-bar-amount {
